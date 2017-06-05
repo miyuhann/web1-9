@@ -133,3 +133,22 @@ text-shadow: 0px 0px 5px white,
   #63B3D2 50%,
   #BFE5F2);
 }
+
+
+.transform{
+  font-size: 10px;
+  width: 100px;
+  text-align: center;
+  padding: 45px 0px;
+  margin: 20px;
+  background-color: mediumspringgreen;
+}
+.translateX{
+  transform: translateX(10px);
+}
+ .translateY{
+  transform: translateX(10px);
+}
+.translate{
+  transform: translateX(-20px, -5px);
+}
