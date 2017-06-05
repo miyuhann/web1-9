@@ -91,3 +91,26 @@ text-shadow: 0px 0px 5px white,
 .border-box{box-sizing:border-box;}
 
   
+#gradient{
+  font-size: 30px;
+}
+.two-gradient{
+  background-color: white;
+  background: linear-gradient(0deg,
+  orangered 0%,
+  white 50%);
+}
+.three-gradient{
+  background-color: white;
+  background: linear-gradient(90deg,
+  orangered 0%,
+  white 50%,
+  orange 100%);
+}
+.skew-gradient{
+  background-color: white;
+  background: linear-gradient(135deg,
+  orangered 0%,
+  white 50%,
+  orange 100%);
+}
